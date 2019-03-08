@@ -8,6 +8,8 @@
 - [ ] BlogClass - entity, that controls branching options, questions, button clicks or animations, showing text, setting questionns.
 - [ ] 3 mandatory attributes:
     - [ ] questions:string[]
+    - [ ] questionIndex:number;
+    - [ ] contactsChilds:Array<ut.Entity> = [];
 - [ ] 5 custom attributes
     - [ ] questionLineMaxLetterCount:number;
     - [ ] answerLineMaxLetterCount:number;
