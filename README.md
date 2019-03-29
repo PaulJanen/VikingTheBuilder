@@ -26,19 +26,7 @@
 
 
 ## API definition
-- [ ] API should have at least 4 methods
-    - [ ] A method to return entity by ID. Should not have request body
-    - [ ] A method to return multiple entities (Array) by ID. This method should support at least one header value to:
-        - [ ] Return only entities that match pattern in one of its attributes
-        - [ ] Return 10 entities starting provided index
-        - [ ] Return sorted entities by one of its attributes (both ascending and descending)
-        - [ ] Other (should be approved by Product Owner (PO))
-    - [ ] A method to remove entity by ID. Returns removed entity. Should not have request body
-    - [ ] A method to update entity by ID. Accepts entity to update and returns updated entity
-- [ ] Each method should have HTTP method defined
-- [ ] Each method should have URI defined (use {id} as entity ID placeholder)
-- [ ] Should return all 4xx errors in unified format. Define format using `joi` language
-- [ ] Should return all 5xx errors in unified format. Define format using `joi` language
+
 
 ## UI definition
 # UI Structure
