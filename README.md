@@ -39,7 +39,16 @@
 
 
 ## API definition
-
+ - [] GET /api/mail/{pastas} - Gauna užprenumeruoto žmogaus paštą.
+ -Klaida 400: Tokio kliento nėra. 
+ - [] POST /api/mail - Išsaugo paštą.
+ - Klaida 400: Įvestas paštas jau egzistuoja. 
+ - [] DELETE /api/mail/{pastas} - Ištrina nurodyto žmogaus paštą iš duomenų bazių sarašo.
+ - Klaida 400: Įvestas paštas neegzistuoja.
+ - [] PUT /api/mail/{pastas} - Nurodyto pasto atnaujinimas.
+ - Klaida 400: Įvestas paštas egzistuoja.
+ 
+ 
 
 ## UI definition
 # UI Structure
