@@ -16,6 +16,18 @@
     - [ ] questionControls:Array<ut.Entity> = [];
     - [ ] contactsChilds:Array<ut.Entity> = [];
     - [ ] button1:ut.Entity[];
+    
+    - [ ] MailSubscription - entity, that stores mails in the database. 
+- [ ] 3 mandatory attributes:
+    - [ ] name:string;
+    - [ ] surname:string;
+    - [ ] mail:string;
+- [ ] 5 custom attributes
+    - [ ] maxNameCharacterCount:number;
+    - [ ] maxSurnameCharacterCount:number;
+    - [ ] maxMailCharacterCount:number;
+    - [ ] Mailtext:ut.Entity[];
+    - [ ] SubscribeToMailbutton:ut.Entity[];
 
 ## Entity restriction
 - [ ] Question line max length = 46;
