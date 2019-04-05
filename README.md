@@ -17,7 +17,7 @@
     - [ ] contactsChilds:Array<ut.Entity> = [];
     - [ ] button1:ut.Entity[];
     
-    - [ ] MailSubscription - entity, that stores mails in the database. 
+- [ ] MailSubscription - entity, that stores mails in the database. 
 - [ ] 3 mandatory attributes:
     - [ ] name:string;
     - [ ] surname:string;
