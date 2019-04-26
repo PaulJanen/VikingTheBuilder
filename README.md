@@ -53,7 +53,7 @@
  - [] GET /api/analytics/{logincount} - Gauna kiek varotojų buvo prisijunge prie svetainės
  
  -Klaida 400: Duomenų bazė neveikia.   
- - [] PUT /api/analytics/{} - Ištrina vartotjo loginą.
+ - [] PUT /api/analytics/{logincount} - Updeitiną login skaičių.
  
  - Klaida 400: Įvestas paštas neegzistuoja. 
  
