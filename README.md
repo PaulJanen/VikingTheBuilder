@@ -36,6 +36,11 @@
     - [ ] sql:string;
     - [ ] con:mySqli_connect;
 
+## Entity restriction
+- [ ] PressReleaseCount = 2^63 (-9,223,372,036,854,775,808) to 2^63-1 (9,223,372,036,854,775,807);
+- [ ] loginCount = 2^63 (-9,223,372,036,854,775,808) to 2^63-1 (9,223,372,036,854,775,807);
+- [ ] query = no restriction, because user is not responsible for query.
+- [ ] sql - same as query.
 
 ## API definition 
 
