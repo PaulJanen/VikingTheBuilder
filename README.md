@@ -40,7 +40,8 @@
 
 ## API definition 
  - [] POST /api/mail - Adds one user login count to the database.
-  Klaida 400: Database is not running. 
+ 
+  Error 400: Database is not running. 
  
 
 ## UI definition
