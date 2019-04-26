@@ -16,20 +16,7 @@
     - [ ] questionControls:Array<ut.Entity> = [];
     - [ ] contactsChilds:Array<ut.Entity> = [];
     - [ ] button1:ut.Entity[];
-
-##
-- [ ] MailSubscription - entity, that stores mails in the database. 
-- [ ] 3 mandatory attributes:
-    - [ ] name:string;
-    - [ ] surname:string;
-    - [ ] mail:string;
-- [ ] 5 custom attributes
-    - [ ] maxNameCharacterCount:number;
-    - [ ] maxSurnameCharacterCount:number;
-    - [ ] maxMailCharacterCount:number;
-    - [ ] Mailtext:ut.Entity[];
-    - [ ] SubscribeToMailbutton:ut.Entity[];
-
+    
 ## Entity restriction
 - [ ] Question line max length = 46;
 - [ ] Answer line max length = 46; These two restrictions exists, so system dynamicaly breaks lines (it can't on its own...)
@@ -37,11 +24,32 @@
 - [ ] Answer line length is 2 lines. If it crosses 2 lines limit app crashes
 - [ ] maxQuestionIndex:number. Restricts scrolling.
 
+##
+- [ ] Analytics - entity, that stores login count and press release visit count in the database. 
+- [ ] 3 mandatory attributes:
+    - [ ] pressReleaseCount:int;
+    - [ ] loginCount:int;
+    - [ ] query:string;
+- [ ] 5 custom attributes
+    - [ ] row:number;
+    - [ ] result:mysqlQuery;
+    - [ ] sql:string;
+    - [ ] con:mySqli_connect;
+    - [ ] SubscribeToMailbutton:ut.Entity[];
+
+
+
 
 ## API definition 
- - [] POST /api/mail - Adds one user login count to the database.
- 
+
+ - [] POST /api/analytics{logincount} - Adds one user login count to the database.
+  Error 400: Database is not running.
+ - [] POST /api/analytics{pressReleaseCount} - Adds one user press release count to the database.
   Error 400: Database is not running. 
+ - [] GET /api/analytics/{logincount} - Gauna kiek varotojų buvo prisijunge prie svetainės
+ -Klaida 400: Duomenų bazė neveikia.   
+ - [] PUT /api/analytics/{} - Ištrina vartotjo loginą.
+ - Klaida 400: Įvestas paštas neegzistuoja. 
  
 
 ## UI definition
