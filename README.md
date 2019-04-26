@@ -52,10 +52,10 @@
   Error 400: Database is not running. 
  - [] GET /api/analytics/{logincount} - Gauna kiek varotojų buvo prisijunge prie svetainės
  
- -Klaida 400: Duomenų bazė neveikia.   
+ Error 400: Database is not running   
  - [] PUT /api/analytics/{logincount} - Updeitiną login skaičių.
  
- - Klaida 400: Įvestas paštas neegzistuoja. 
+ Error 400: Database is not running 
  
 
 ## UI definition
