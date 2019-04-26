@@ -26,18 +26,15 @@
 
 ##
 - [ ] Analytics - entity, that stores login count and press release visit count in the database. 
-- [ ] 3 mandatory attributes:
+- [ ] mandatory attributes:
     - [ ] pressReleaseCount:int;
     - [ ] loginCount:int;
     - [ ] query:string;
-- [ ] 5 custom attributes
+- [ ] custom attributes
     - [ ] row:number;
     - [ ] result:mysqlQuery;
     - [ ] sql:string;
     - [ ] con:mySqli_connect;
-    - [ ] SubscribeToMailbutton:ut.Entity[];
-
-
 
 
 ## API definition 
