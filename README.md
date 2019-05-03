@@ -44,7 +44,7 @@
 
 ## API definition 
 
- - [] POST /api/analytics{logincount} - Adds one user login count to the database.
+ - [] PUT /api/analytics{logincount} - Adds one user login count to the database.
  
   Error 400: Database is not running.
  - [] POST /api/analytics{pressReleaseCount} - Adds one user press release count to the database.
@@ -53,7 +53,7 @@
  - [] GET /api/analytics/{logincount} - Gauna kiek varotojų buvo prisijunge prie svetainės
  
  Error 400: Database is not running   
- - [] PUT /api/analytics/{logincount} - Updeitiną login skaičių.
+ - [] POST /api/analytics/{loginDate} - Prideda loginDate prie duomenų bazės.
  
  Error 400: Database is not running 
  
